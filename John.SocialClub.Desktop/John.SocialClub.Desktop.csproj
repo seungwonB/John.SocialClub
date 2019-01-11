@@ -54,7 +54,7 @@
   <ItemGroup>
     <Reference Include="DataGridViewPrinter, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DataGridViewPrinter.dll</HintPath>
+      <HintPath>Libs\DataGridViewPrinter.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -118,6 +118,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Libs\DataGridViewPrinter.dll" />
     <Content Include="SocialClub.mdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
